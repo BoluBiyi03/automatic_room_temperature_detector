@@ -1,7 +1,7 @@
 //automatic room temperature detector using arduino uno
 #include <LiquidCrystal.h>
 
-LiquidCrystal lcd(12, 11, 10, 9, 8, 7);
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 const int sensor_pin = A0; //sensor pin
 
@@ -14,7 +14,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   float sensor_value = analogRead(sensor_pin);
-  float temp_value = (sensor_value - 500) / 10;
+  float temp_value = (sensor_value * (5.0/1023)) * 100.00;
 
   lcd.setCursor(0, 0);
   
