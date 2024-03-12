@@ -17,6 +17,8 @@ living or working spaces.
 4) Jumper Wires
 ## Schematic Design 
 [Schematic capture](https://drive.google.com/file/d/1UyTEMHNMLFzWqgTHpVoadyMwwe1sk8zn/view?usp=sharing)
+
+[Schematic capture with buzzer and LED]()
 ## Source Code 
 ``` cpp
 //automatic room temperature detector using arduino uno
