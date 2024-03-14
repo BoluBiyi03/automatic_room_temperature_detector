@@ -18,7 +18,7 @@ living or working spaces.
 ## Schematic Design 
 [Schematic capture](https://drive.google.com/file/d/1UyTEMHNMLFzWqgTHpVoadyMwwe1sk8zn/view?usp=sharing)
 
-[Schematic capture with buzzer and LED]()
+[Schematic capture with buzzer and LED](https://drive.google.com/file/d/1iFDC6Wt0Hn9189kMARgLo7hVPv33rROL/view?usp=sharing)
 ## Source Code 
 ``` cpp
 //automatic room temperature detector using arduino uno
